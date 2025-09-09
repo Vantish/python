@@ -71,3 +71,6 @@ print(lis6)
 짬통.append(lis6)
 
 print(짬통)
+
+
+
