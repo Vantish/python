@@ -51,6 +51,8 @@ def rendom():
 value = '하이하이하이'
 print(value, end = '따봉')
 
+link = 'C:/Users/402/Desktop/ss/workspace/python/file/'
+
 f = open('C:/Users/402/Desktop/ss/workspace/python/file/새파일.txt', 'w', encoding='utf-8')
 for i in range(1, 11):
     f.write(f'{i}\n')
@@ -65,7 +67,8 @@ f = open('C:/Users/402/Desktop/ss/workspace/python/file/score.txt', 'w', encodin
 f.write('80 90 70 100 60')
 f.close()
 
-f = open('C:/Users/402/Desktop/ss/workspace/python/file/numbers.txt', 'w', encoding='utf-8')
+f = open(link + 'numbers.txt', 'w', encoding='utf-8')
 for i in range(10, 21):
     f.write(f'{i}\n')
 f.close()
+
