@@ -56,3 +56,9 @@ class Student:
 
 sss = Student(101, '이동원')
 sss.info()
+
+sts = Student(102, '김무현')
+sts.changeschool('해원고등학교')
+sts.info()
+
+sss.info()
